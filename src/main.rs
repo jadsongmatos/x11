@@ -6,9 +6,9 @@ use std::{thread, time};
 
 fn main() -> Result<(), Box<dyn Error>> {
 
-    let red: u8 = 0xBF;
-    let green: u8 = 0xAF;
-    let blue: u8 = 0xCF;
+    let red: u8 = 0xAB;
+    let green: u8 = 0xCD;
+    let blue: u8 = 0xF0;
 
     let frame_duration = time::Duration::from_millis(1000 / 2); // Duração de um quadro para 30 FPS
 
